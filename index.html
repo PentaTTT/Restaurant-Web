@@ -1,0 +1,541 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Roboto:wght@300;500&display=swap" 
+        rel="stylesheet"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet"
+    >
+    <!-- aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Web Restaurant</title>
+</head>
+<body>
+    <!-- TOP -->
+    <section class="top">
+        <div class="container">
+            <div class="row justify-content">
+                <!-- logo  -->
+                <div class="top__logo">
+                    <img src="./images/logo.jpg" alt="">
+                </div>
+                <!-- navbar icon -->
+                <div class="navbar__icons">
+                    <div class="navbar__icon"></div>
+                </div>
+                <!-- navbar item -->
+                <div class="navbar__items">
+                    <ul>
+                        <li class="navbar__item"><a href="#">Trang chủ</a></li>
+                        <li class="navbar__item"><a href="#">Thực đơn</a></li>
+                        <li class="navbar__item"><a href="#">Về chúng tôi</a></li>
+                        <li class="navbar__item"><a href="#">Phản hồi</a></li>
+                        <li class="navbar__item"><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER  -->
+    <section class="banner__img">
+        <div class="banner__img--content">
+            <h2>Nhà hàng Duy Tan</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sed necessitatibus. Labore!</p>
+            <button class="banner__img--btn">MENU</button>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="container">
+            <!-- title  -->
+            <div class="row">
+                <div class="about__title" data-aos="fade-up">
+                    <h2 data-title="Câu chuyện">Về chúng tôi</h2>
+                </div>
+            </div>
+            <!-- about items  -->
+            <div class="about__items">
+                <!-- about content  -->
+                <div class="about__item" data-aos="fade-right" 
+                                         data-aos-duration="1000"
+                                         data-aos-easing="ease-in-sine">
+                    <h2>CHÀO MỪNG CÁC BẠN ĐÃ ĐẾN VỚI NHÀ HÀNG CỦA CHÚNG TÔI</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime esse iste magni, et alias. Ad, numquam facere quis eveniet repellendus natus fuga, itaque totam rerum soluta ipsum voluptates deleniti neque consequuntur voluptatibus, eligendi quia? A iusto alias reprehenderit nisi non suscipit, error temporibus rem, minus quidem repudiandae commodi quos.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime esse iste magni, et alias. Ad, numquam facere quis eveniet repellendus natus fuga, itaque totam rerum soluta ipsum voluptates deleniti neque consequuntur voluptatibus, eligendi quia? A iusto alias reprehenderit nisi non suscipit, error temporibus rem, minus quidem repudiandae.
+                    </p>
+                    <button class="banner__img--btn">MENU</button>
+                </div>
+                <!-- about img  -->
+                <div class="about__item" data-aos="fade-left" 
+                                         data-aos-duration="1000"
+                                         data-aos-easing="ease-in-sine">
+                    <div class="about__img">
+                        <span>Hơn 10 năm kinh nghiệm</span>
+                        <div class="sq"></div>
+                        <img src="./images/about.jpg" alt="about Restaurant">
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- MENU  -->
+    <section class="menu">
+        <div class="container">
+            <!-- menu title  -->
+            <div class="menu__title" data-aos="fade-up">
+                <h2 data-title="ORDER NOW">MENU</h2>
+            </div>
+            <!-- menu items -->
+            <div class="menu__items" data-aos="fade-right">
+                <button class="menu__item active" data-title="#trua">Trưa</button>
+                <button class="menu__item" data-title="#chieu">Chiều</button>
+                <button class="menu__item" data-title="#do-uong">Đồ uống</button>
+                <button class="menu__item" data-title="#diem-tam">Điểm tâm</button>
+            </div>
+
+            <!-- menu content -->
+            <!-- <div class="row justify-content"> -->
+                    <!-- trưa  -->
+                    <div class="menu__item-contents active" id="trua">
+                        <div class="menu__content" data-aos="fade-right">
+                            <div class="content__info">
+                                <img src="./images/food.jpg" alt="pizza nấm">
+                                <p>Pizza nấm</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content" data-aos="fade-left">
+                            <div class="content__info">
+                                <img src="./images/food2.jpg" alt="pizza thịt">
+                                <p>Pizza thịt</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content" data-aos="fade-up">
+                            <div class="content__info">
+                                <img src="./images/food3.png" alt="pizza cheese">
+                                <p>Pizza cheese</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content" data-aos="fade-up">
+                            <div class="content__info">
+                                <img src="./images/food4.jpeg" alt="mỳ cua">
+                                <p>Mỳ cua</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>150.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info" data-aos="fade-up">
+                                <img src="./images/food7.jpg" alt="mỳ nghêu">
+                                <p>Mỳ nghêu</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>150.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info" data-aos="fade-up">
+                                <img src="./images/food14.jpg" alt="pizza nấm">
+                                <p>Thịt hanging</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content" data-aos="fade-up">
+                            <div class="content__info">
+                                <img src="./images/food12.jpg" alt="Hamburger">
+                                <p>Hamburger</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content" data-aos="fade-up">
+                            <div class="content__info">
+                                <img src="./images/food8.jpg" alt="food">
+                                <p>Something food</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- chiều  -->
+                    <div class="menu__item-contents" id="chieu">
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food.jpg" alt="pizza nấm">
+                                <p>Pizza nấm</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food2.jpg" alt="pizza thịt">
+                                <p>Pizza thịt</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food3.png" alt="pizza cheese">
+                                <p>Pizza cheese</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food4.jpeg" alt="mỳ cua">
+                                <p>Mỳ cua</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>150.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food7.jpg" alt="mỳ nghêu">
+                                <p>Mỳ nghêu</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>150.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food14.jpg" alt="pizza nấm">
+                                <p>Thịt hanging</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/food12.jpg" alt="Hamburger">
+                                <p>Hamburger</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- đồ uống  -->
+                    <div class="menu__item-contents" id="do-uong">
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/drink5.jfif" alt="DaLat whey stout">
+                                <p>DaLat wheystout</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>150.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/drink3.jpg" alt="Rượu Soju?">
+                                <p>Rượu Soju</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/drink.jpg" alt="Fruit juice">
+                                <p>Fruit juice</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/drink6.jpg" alt="Soda">
+                                <p>Soda</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- điểm tâm  -->
+                    <div class="menu__item-contents" id="diem-tam">
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/dessert.jpg" alt="bánh kem">
+                                <p>Bánh sukem</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>150.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/dessert1.jpg" alt="tiramisu">
+                                <p>Tiramisu</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/dessert2.jpg" alt="kem">
+                                <p>Kem</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+            
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/dessert4.jpeg" alt="kem 2">
+                                <p>Kem tráiCây</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+
+                        <div class="menu__content">
+                            <div class="content__info">
+                                <img src="./images/dessert3.jpg" alt="dessert">
+                                <p>Something dessert</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- </div> -->
+            
+            </div>
+    </section>
+
+    <!-- FEEDBACK -->
+    <section class="feedback">
+        <div class="container">
+                <div class="feedback__title" data-aos="fade-up">
+                    <h2 data-title="Ý Kiến">Phản Hồi</h2>
+                </div>
+                <div class="feedback__items">
+                    <!-- fb item  -->
+                    <div class="feedback__item" data-aos="fade-up-right"
+                                                data-aos-duration="700">
+                        <div class="feedback__content">
+                            <div class="feedback__content-text">
+                                <h2>Doãn Cẩm Vân</h2>
+                                <p>Food Specialist</p>
+                            </div>
+                            <div class="feedback__content-img">
+                                <img src="./images/feedback.jpg" alt="food Specialist">
+                            </div>
+
+                        </div>
+                        <div class="feedback__item-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam id nam, perspiciatis beatae eum aperiam quaerat? Nesciunt dolorum excepturi mollitia.</p>
+                        </div>
+                        <div class="feedback__item-star">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- fb item  -->
+                    <div class="feedback__item" data-aos="flip-left"
+                                                data-aos-duration="700">
+                        <div class="feedback__content">
+                            <div class="feedback__content-text">
+                                <h2>Doãn Cẩm Vân</h2>
+                                <p>Food Specialist</p>
+                            </div>
+                            <div class="feedback__content-img">
+                                <img src="./images/feedback1.jpg" alt="food Specialist">
+                            </div>
+
+                        </div>
+                        <div class="feedback__item-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab recusandae error beatae repudiandae, quo ad iusto nobis eum! Ab, corrupti?</p>
+                        </div>
+                        <div class="feedback__item-star">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- fb item  -->
+                    <div class="feedback__item" data-aos="fade-up-left"
+                                                data-aos-duration="700">
+                        <div class="feedback__content">
+                            <div class="feedback__content-text">
+                                <h2>Doãn Cẩm Vân</h2>
+                                <p>Food Specialist</p>
+                            </div>
+                            <div class="feedback__content-img">
+                                <img src="./images/feedback.jpg" alt="food Specialist">
+                            </div>
+
+                        </div>
+                        <div class="feedback__item-text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia eum odit excepturi rem eius culpa tenetur assumenda debitis. Ab, corrupti?</p>
+                        </div>
+                        <div class="feedback__item-star">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: var(--bg-color);"></i>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="team__title">
+                    <h2 data-title="Đội Ngũ">Đầu Bếp</h2>
+                </div>
+            </div>
+
+            <!-- items -->
+            <div class="team__wrap">
+            <div class="team__items">
+                <div class="team__item">
+                    <img src="./images/feedback3.jpg" alt="Bếp trưởng">
+                    <div class="team__item-text">
+                        <h2>Elena Arzak</h2>
+                        <span>Bếp Trưởng</span>
+                    </div>
+                </div>
+
+                <div class="team__item">
+                    <img src="./images/feedback2.jpg" alt="Bếp trưởng">
+                    <div class="team__item-text">
+                        <h2>Marco Pierre White</h2>
+                        <span>Bếp Trưởng</span>
+                    </div>
+                </div>
+
+                <div class="team__item">
+                    <img src="./images/feedback1.jpg" alt="Bếp trưởng">
+                    <div class="team__item-text">
+                        <h2>Emeril Lagasse</h2>
+                        <span>Bếp Trưởng</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- btn next - prv -->
+            <div class="team__btnN-P">
+                <span class="btn__prev"><i class="fa-solid fa-arrow-left" onclick="prev()"></i></span>
+                <span class="btn__next"><i class="fa-solid fa-arrow-right" onclick="next()"></i></span>
+    
+            </div>            
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <h2>Địa chỉ</h2>
+                    <p>72, Hàm Nghi <br>ABC, XYZ</p>
+                </div>
+                <div class="footer__item">
+                    <h2>Giờ mở cửa</h2>
+                    <p>9:30 - 23:00 <br>All Day</p>
+                </div>
+                <div class="footer__item">
+                    <h2>Liên hệ</h2>
+                    <p>Phone: 9012345678 <br>Email: duytan0220@gmail.com</p>
+                    <div class="footer__item-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            ©2021. Toàn bộ bản quyền thuộc thai market
+        </div>
+    </section>
+
+    <!-- js -->
+    <script src="./javascript/main.js"></script>
+    <script 
+        src="https://kit.fontawesome.com/f000b23260.js" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
