@@ -164,7 +164,7 @@ a{
 
 
 /* == BANNER IMG == */
-.banner__img{
+#banner__img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +174,7 @@ a{
     overflow: hidden;
 }
 
-.banner__img::before{
+#banner__img::before{
     content: '';
     display: block;
     position: absolute;
@@ -243,7 +243,7 @@ a{
 }
 
 /* == ABOUT == */
-.about{
+#about{
     background-color: var(--main-color);
     padding: 80px 0;
     /* width: 100vw; */
@@ -333,7 +333,7 @@ a{
 
 
 /* ==MENU== */
-.menu{
+#menu{
     background-color: var(--bg-color);
     padding: 80px 0;
     /* width: 100vw; */
@@ -447,7 +447,7 @@ a{
 }
 
 /* == FEEDBACK == */
-.feedback{
+#feedback{
     background-color: var(--main-color);
     height: 100vh;
     padding: 80px 0;
@@ -527,7 +527,7 @@ a{
 }
 
 /* == TEAM == */
-.team{
+#team{
     background-color: var(--bg-color);
     height: 100vh;
     padding: 80px 0;
@@ -604,7 +604,7 @@ a{
 }
 
 /* == FOOTER == */
-.footer{
+#footer{
     padding: 50px 0 ;
     background-image: url("../images/footer.jpg");
     background-position: center;
@@ -644,6 +644,7 @@ a{
     margin-top: 10px;
 }
 .footer__item-social i{
+    color: white;
     margin: 0 5px;
     cursor: pointer;
 }
@@ -664,7 +665,7 @@ a{
 /* MOBILE  */
 @media only screen and (max-width:46.1875em) {
     /* banner  */
-    .banner__img::before{
+    #banner__img::before{
         background-image: url('../images/banner2.jpg');
     }
     /* menu  */
@@ -699,8 +700,8 @@ a{
     }
 
     /* about  */
-    .about{
-        height: 110vh;
+    #about{
+        height: 100vh;
     }
     .about__title h2{
         font-size: 25px;
@@ -715,7 +716,7 @@ a{
         font-size: 1px;
     }
     .about__img span{
-        font-size: 18px;
+        font-size: 15px;
     }
     .sq{
         width: 80px;
@@ -734,7 +735,7 @@ a{
     }
 
     /* menu  */
-    .menu{
+    #menu{
         padding-top: 80px;
         position: relative;
     }
@@ -774,7 +775,7 @@ a{
     }
 
     /* team  */
-    .team{
+    #team{
         height: 100vh;
         position: relative;
     }
@@ -832,7 +833,7 @@ a{
     }
 
     /* footer  */
-    .footer{
+    #footer{
         padding: 20px 0 ;
         background-image: url("../images/footer2.jpg");
         background-position: right;

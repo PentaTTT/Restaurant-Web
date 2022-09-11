@@ -35,10 +35,11 @@
                 <div class="navbar__items">
                     <ul>
                         <li class="navbar__item"><a href="#">Trang chủ</a></li>
-                        <li class="navbar__item"><a href="#">Thực đơn</a></li>
-                        <li class="navbar__item"><a href="#">Về chúng tôi</a></li>
-                        <li class="navbar__item"><a href="#">Phản hồi</a></li>
-                        <li class="navbar__item"><a href="#">Liên hệ</a></li>
+                        <li class="navbar__item"><a href="#menu">Thực đơn</a></li>
+                        <li class="navbar__item"><a href="#about">Về chúng tôi</a></li>
+                        <li class="navbar__item"><a href="#feedback">Phản hồi</a></li>
+                        <li class="navbar__item"><a href="#team">Đội ngũ</a></li>
+                        <li class="navbar__item"><a href="#footer">Liên hệ</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,16 +47,16 @@
     </section>
 
     <!-- BANNER  -->
-    <section class="banner__img">
+    <section id="banner__img">
         <div class="banner__img--content">
             <h2>Nhà hàng Duy Tan</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sed necessitatibus. Labore!</p>
-            <button class="banner__img--btn">MENU</button>
+            <a href="#menu"><button class="banner__img--btn">MENU</button></a>
         </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="about">
+    <section id="about">
         <div class="container">
             <!-- title  -->
             <div class="row">
@@ -76,7 +77,7 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime esse iste magni, et alias. Ad, numquam facere quis eveniet repellendus natus fuga, itaque totam rerum soluta ipsum voluptates deleniti neque consequuntur voluptatibus, eligendi quia? A iusto alias reprehenderit nisi non suscipit, error temporibus rem, minus quidem repudiandae.
                     </p>
-                    <button class="banner__img--btn">MENU</button>
+                    <a href="#menu"><button class="banner__img--btn">MENU</button></a>
                 </div>
                 <!-- about img  -->
                 <div class="about__item" data-aos="fade-left" 
@@ -94,7 +95,7 @@
     </section>
 
     <!-- MENU  -->
-    <section class="menu">
+    <section id="menu">
         <div class="container">
             <!-- menu title  -->
             <div class="menu__title" data-aos="fade-up">
@@ -197,6 +198,16 @@
                     <div class="menu__item-contents" id="chieu">
                         <div class="menu__content">
                             <div class="content__info">
+                                <img src="./images/food12.jpg" alt="Hamburger">
+                                <p>Hamburger</p> 
+                            </div>
+                            <div class="content__price">
+                                <p>50.000đ</p>
+                            </div>
+                        </div>
+
+                        <div class="menu__content">
+                            <div class="content__info">
                                 <img src="./images/food.jpg" alt="pizza nấm">
                                 <p>Pizza nấm</p> 
                             </div>
@@ -254,16 +265,7 @@
                                 <p>50.000đ</p>
                             </div>
                         </div>
-            
-                        <div class="menu__content">
-                            <div class="content__info">
-                                <img src="./images/food12.jpg" alt="Hamburger">
-                                <p>Hamburger</p> 
-                            </div>
-                            <div class="content__price">
-                                <p>50.000đ</p>
-                            </div>
-                        </div>
+
                     </div>
 
                     <!-- đồ uống  -->
@@ -368,7 +370,7 @@
     </section>
 
     <!-- FEEDBACK -->
-    <section class="feedback">
+    <section id="feedback">
         <div class="container">
                 <div class="feedback__title" data-aos="fade-up">
                     <h2 data-title="Ý Kiến">Phản Hồi</h2>
@@ -452,7 +454,7 @@
     </section>
 
     <!-- TEAM -->
-    <section class="team">
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="team__title" data-aos="fade-up">
@@ -499,7 +501,7 @@
     </section>
 
     <!-- FOOTER  -->
-    <section class="footer">
+    <section id="footer">
         <div class="container">
             <div class="footer__items">
                 <div class="footer__item">
@@ -514,8 +516,12 @@
                     <h2>Liên hệ</h2>
                     <p>Phone: 9012345678 <br>Email: duytan0220@gmail.com</p>
                     <div class="footer__item-social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-github"></i>
+                        <a href="https://www.facebook.com/PentaTTT/" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://github.com/PentaTTT?tab=repositories" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                         <i class="fa-brands fa-instagram"></i>
                         <i class="fa-brands fa-youtube"></i>
                     </div>

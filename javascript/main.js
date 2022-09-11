@@ -28,7 +28,7 @@ menuTitle.addEventListener('click', (x)=>{
         menuTitle.querySelector('.active').classList.remove('active');
         x.target.classList.add('active');
 
-        const menuItem = document.querySelector('.menu');
+        const menuItem = document.querySelector('#menu');
         menuItem.querySelector('.menu__item-contents.active').classList.remove('active');
         menuItem.querySelector(Target).classList.add('active')
     }
