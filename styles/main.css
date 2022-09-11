@@ -663,8 +663,6 @@ a{
 
 /* MOBILE  */
 @media only screen and (max-width:46.1875em) {
-    .top{
-    }
     /* banner  */
     .banner__img::before{
         background-image: url('../images/banner2.jpg');
