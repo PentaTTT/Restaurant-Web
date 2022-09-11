@@ -39,11 +39,11 @@ const btnNext = document.querySelector('.btn__next');
 const btnPrev = document.querySelector('.btn__prev');
 const contentItems = document.querySelector('.team__items');
 const contentItem = document.querySelectorAll('.team__item');
-const team = document.querySelector('.team');
+const team = document.querySelector('#team');
 const wrap = document.querySelector('.team__wrap')
 
 //lấy width và length
-const itemWidth = team.offsetWidth;
+const itemWidth = wrap.offsetWidth;
 const itemLength = contentItem.length;
 // console.log("width", itemWidth, itemLength)
 
